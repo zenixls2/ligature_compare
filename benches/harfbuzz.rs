@@ -1,7 +1,7 @@
 #![feature(test)]
 extern crate test;
-use test::Bencher;
 use harfbuzz_rs::*;
+use test::Bencher;
 
 #[bench]
 fn harfbuzz(b: &mut Bencher) {
